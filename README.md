@@ -11,27 +11,30 @@ Plain ES modules, no dependencies, Node.js 18 or newer. The functions are determ
 
 ## Install
 
+From GitHub:
+
 ```sh
-npm install legal-binder-tools
+npm install github:anselmoindex/legal-binder-tools
 ```
 
-Or run the command-line tool without installing:
+Or install the command-line tool globally, or run it once without installing:
 
 ```sh
-npx legal-binder-tools --help
+npm install -g github:anselmoindex/legal-binder-tools
+npx github:anselmoindex/legal-binder-tools --help
 ```
 
 ## Command line
 
 ```console
-$ npx legal-binder-tools bates --prefix ABC --start 1 --count 5
+$ legal-binder-tools bates --prefix ABC --start 1 --count 5
 ABC000001
 ABC000002
 ABC000003
 ABC000004
 ABC000005
 
-$ npx legal-binder-tools bates --prefix SMITH --digits 3 --start 998 --count 3 --suffix=-CONF
+$ legal-binder-tools bates --prefix SMITH --digits 3 --start 998 --count 3 --suffix=-CONF
 SMITH998-CONF
 SMITH999-CONF
 SMITH1000-CONF
@@ -40,12 +43,12 @@ SMITH1000-CONF
 Padding never truncates: a number wider than `--digits` prints in full. A suffix that starts with a dash needs the `--suffix=-CONF` form.
 
 ```console
-$ npx legal-binder-tools exhibits --party "Defendant's" --numbering letters --count 3
+$ legal-binder-tools exhibits --party "Defendant's" --numbering letters --count 3
 DEFENDANT'S EXHIBIT A
 DEFENDANT'S EXHIBIT B
 DEFENDANT'S EXHIBIT C
 
-$ npx legal-binder-tools sequence --style letters --start Y --count 4
+$ legal-binder-tools sequence --style letters --start Y --count 4
 Y
 Z
 AA
@@ -55,13 +58,13 @@ AB
 Exhibit list from a text file with one description per line (use `--file -` to read stdin):
 
 ```console
-$ npx legal-binder-tools list --file exhibits.txt --prefix PX-
+$ legal-binder-tools list --file exhibits.txt --prefix PX-
 No.,Description,Marked,Offered,Admitted
 PX-1,"Purchase agreement, March 2024",,,
 PX-2,"Email from J. Doe, ""re: delivery"", 4/2/24",,,
 PX-3,Invoice 1043 | unpaid,,,
 
-$ npx legal-binder-tools list --file exhibits.txt --format markdown
+$ legal-binder-tools list --file exhibits.txt --format markdown
 | No. | Description | Marked | Offered | Admitted |
 | --- | --- | --- | --- | --- |
 | 1 | Purchase agreement, March 2024 |  |  |  |
@@ -74,7 +77,7 @@ The Marked, Offered and Admitted columns are left blank to fill in during the he
 Which tab cut to order for 12 tabs:
 
 ```console
-$ npx legal-binder-tools cut --tabs 12
+$ legal-binder-tools cut --tabs 12
 Recommended: 1/6 cut, 2 bank(s), tabs 1.67" long
 
 cut   banks  layout          tab length
@@ -91,7 +94,7 @@ cut   banks  layout          tab length
 Where each tab falls on the edge for a given cut:
 
 ```console
-$ npx legal-binder-tools cut --tabs 7 --cut 5
+$ legal-binder-tools cut --tabs 7 --cut 5
 1/5 cut, 11" edge, 10" working length: 2 bank(s), tabs 2.00" long
 tab 1: bank 1, position 1, 0.50" to 2.50" from the top
 tab 2: bank 1, position 2, 2.50" to 4.50" from the top
@@ -105,12 +108,12 @@ tab 7: bank 2, position 2, 2.50" to 4.50" from the top
 Binder size for 250 sheets of 20# paper plus 10 tab dividers, and the full capacity chart:
 
 ```console
-$ npx legal-binder-tools binder --sheets 250 --tabs 10
+$ legal-binder-tools binder --sheets 250 --tabs 10
 Stack: 1.07" (1.23" with 15% headroom)
 Round ring: 2"
 D-ring:     1-1/2"
 
-$ npx legal-binder-tools chart
+$ legal-binder-tools chart
 ring      20# round 24# round 28# round 20# D     24# D     28# D
 1/2"      91        77        62        118       101       81
 1"        182       155       125       237       202       163
