@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "legal-binder-tools"
+abstract: "Dependency-free JavaScript helpers for Bates numbering, exhibit labels and lists, index tab cut math, and binder ring sizing."
+type: software
+authors:
+  - name: "Anselmo Die & Index, Inc."
+    website: "https://tabzoola.com"
+    city: "Schaumburg"
+    region: "Illinois"
+    country: US
+version: 0.1.0
+date-released: "2026-10-08"
+license: MIT
+repository-code: "https://github.com/anselmoindex/legal-binder-tools"
+url: "https://tabzoola.com"
+keywords:
+  - bates numbering
+  - exhibit list
+  - index tabs
+  - binder capacity

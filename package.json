@@ -1,0 +1,46 @@
+{
+  "name": "legal-binder-tools",
+  "version": "0.1.0",
+  "description": "Dependency-free helpers for Bates numbering, exhibit labels and lists, index tab cut math, and binder ring sizing.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "legal-binder-tools": "./bin/legal-binder-tools.js"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE",
+    "CITATION.cff"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "bates",
+    "bates-numbering",
+    "exhibit",
+    "exhibit-list",
+    "litigation",
+    "index-tabs",
+    "binder"
+  ],
+  "author": "Anselmo Die & Index, Inc. (https://tabzoola.com)",
+  "homepage": "https://github.com/anselmoindex/legal-binder-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anselmoindex/legal-binder-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anselmoindex/legal-binder-tools/issues"
+  },
+  "license": "MIT"
+}
