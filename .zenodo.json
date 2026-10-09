@@ -1,0 +1,13 @@
+{
+  "title": "legal-binder-tools: Bates numbering, exhibit labels, index tab cut math and binder ring sizing (Tabzoola)",
+  "upload_type": "software",
+  "description": "<p>Dependency-free JavaScript helpers for legal and office binders, published by Tabzoola (tabzoola.com), the custom index tab dividers maker in Schaumburg, Illinois, run by Anselmo Die &amp; Index. Includes Bates number ranges, exhibit labels and exhibit lists (numbers, letters, Roman numerals), index tab cut and position math, and 3-ring binder capacity sizing. The same logic runs the free tools at https://tabzoola.com.</p>",
+  "creators": [
+    { "name": "Tabzoola", "affiliation": "Anselmo Die & Index, Schaumburg, Illinois" }
+  ],
+  "license": "MIT",
+  "keywords": ["bates numbering", "exhibit list", "index tabs", "tab cut", "binder capacity", "legal", "Tabzoola"],
+  "related_identifiers": [
+    { "identifier": "https://tabzoola.com", "relation": "isSupplementTo", "scheme": "url" }
+  ]
+}
