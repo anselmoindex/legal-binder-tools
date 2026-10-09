@@ -1,5 +1,7 @@
 # legal-binder-tools
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23253695.svg)](https://doi.org/10.5281/zenodo.23253695)
+
 Small, dependency-free JavaScript helpers for assembling legal binders and productions:
 
 - **Bates numbering**: format Bates labels and assign page ranges across several documents.
