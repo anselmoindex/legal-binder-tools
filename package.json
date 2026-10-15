@@ -8,7 +8,7 @@
     ".": "./index.js"
   },
   "bin": {
-    "legal-binder-tools": "./bin/legal-binder-tools.js"
+    "legal-binder-tools": "bin/legal-binder-tools.js"
   },
   "files": [
     "index.js",
