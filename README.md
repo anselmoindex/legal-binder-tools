@@ -1,6 +1,6 @@
 # legal-binder-tools
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23253695.svg)](https://doi.org/10.5281/zenodo.23253695)
+[![npm](https://img.shields.io/npm/v/legal-binder-tools.svg)](https://www.npmjs.com/package/legal-binder-tools) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23253695.svg)](https://doi.org/10.5281/zenodo.23253695)
 
 Small, dependency-free JavaScript helpers for assembling legal binders and productions:
 
@@ -13,17 +13,17 @@ Plain ES modules, no dependencies, Node.js 18 or newer. The functions are determ
 
 ## Install
 
-From GitHub:
+From npm (<https://www.npmjs.com/package/legal-binder-tools>):
 
 ```sh
-npm install github:anselmoindex/legal-binder-tools
+npm install legal-binder-tools
 ```
 
 Or install the command-line tool globally, or run it once without installing:
 
 ```sh
-npm install -g github:anselmoindex/legal-binder-tools
-npx github:anselmoindex/legal-binder-tools --help
+npm install -g legal-binder-tools
+npx legal-binder-tools --help
 ```
 
 ## Command line
