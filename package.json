@@ -31,9 +31,13 @@
     "exhibit-list",
     "litigation",
     "index-tabs",
-    "binder"
+    "binder",
+    "tabzoola",
+    "custom-index-tabs",
+    "legal-tech",
+    "paralegal"
   ],
-  "author": "Anselmo Die & Index, Inc. (https://tabzoola.com)",
+  "author": "Tabzoola (https://tabzoola.com)",
   "homepage": "https://github.com/anselmoindex/legal-binder-tools#readme",
   "repository": {
     "type": "git",
