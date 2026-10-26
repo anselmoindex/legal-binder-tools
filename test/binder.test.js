@@ -20,10 +20,10 @@ test("binderPlan: stack, headroom and ring picks", () => {
 });
 
 test("binderPlan counts paper weight, tab stock and protectors", () => {
-  const p = binderPlan({ sheets: 100, paper: "28", tabs: 5, tabStock: "poly", protectors: 20 });
-  close(p.stack, 100 * 0.0058 + 5 * 0.015 + 20 * 0.006);
+  const p = binderPlan({ sheets: 100, paper: "28", tabs: 5, tabStock: "110", protectors: 20 });
+  close(p.stack, 100 * 0.0058 + 5 * 0.0085 + 20 * 0.006);
   assert.equal(p.paper.id, "28");
-  assert.equal(p.tabStock.id, "poly");
+  assert.equal(p.tabStock.id, "110");
 });
 
 test("binderPlan: an empty binder takes the smallest ring", () => {

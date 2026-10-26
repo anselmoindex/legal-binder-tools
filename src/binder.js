@@ -21,7 +21,6 @@ export const PAPER = Object.freeze([
 export const TAB_STOCK = Object.freeze([
   { id: "90", label: "90# index (standard paper tabs)", caliper: 0.007 },
   { id: "110", label: "110# index (heavy paper tabs)", caliper: 0.0085 },
-  { id: "poly", label: ".015 poly (plastic tabs)", caliper: 0.015 },
 ]);
 
 /** Nominal ring sizes. Round rings are listed only up to 3". */

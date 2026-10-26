@@ -30,7 +30,7 @@ Commands:
   list       --file descriptions.txt [--format csv|markdown] [--numbering ...]
              [--start 1] [--prefix PX-]   (one description per line; "-" reads stdin)
   cut        --tabs 12 [--cut 5] [--edge 11]
-  binder     --sheets 250 [--paper 20|24|28] [--tabs 10] [--tab-stock 90|110|poly]
+  binder     --sheets 250 [--paper 20|24|28] [--tabs 10] [--tab-stock 90|110]
              [--protectors 0]
   chart      binder capacity chart (sheets per ring size)
 

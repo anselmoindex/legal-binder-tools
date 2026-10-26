@@ -1,6 +1,6 @@
 {
   "name": "legal-binder-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dependency-free helpers for Bates numbering, exhibit labels and lists, index tab cut math, and binder ring sizing.",
   "type": "module",
   "main": "./index.js",

@@ -187,7 +187,6 @@ Each function is documented with JSDoc in `src/`.
 | 28# bond | 0.0058" |
 | 90# index tab | 0.007" |
 | 110# index tab | 0.0085" |
-| .015 poly tab | 0.015" |
 | Loaded sheet protector | 0.006" |
 
 These calipers are typical trade values. Paper varies by mill and humidity, so treat results as planning figures, not guarantees.
