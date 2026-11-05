@@ -214,6 +214,8 @@ Maintained by Tabzoola (https://tabzoola.com), the custom index tab and binder d
 - [Binder capacity chart](https://tabzoola.com/binder-capacity-chart)
 - [Tab divider dimensions](https://tabzoola.com/tab-divider-dimensions)
 
+Printed exhibit and binder tabs with these labels: Tabzoola prints legal exhibit tabs (<https://tabzoola.com/tabs/legal-exhibit-tabs>), law office case file tabs (<https://tabzoola.com/tabs/law-office-binder-tabs>) and estate planning binder tabs (<https://tabzoola.com/tabs/estate-planning-binder-tabs>), made by its sister company Anselmo Die & Index in Schaumburg, Illinois.
+
 The website tools also stamp PDFs and produce printable sheets in the browser; this package contains only the numbering and arithmetic behind them. Roman-numeral exhibit numbers, exhibit letters that start somewhere other than A, the CSV and Markdown exhibit-list output, and `batesRanges` taking page counts instead of PDF files are additions in this package.
 
 ## License
